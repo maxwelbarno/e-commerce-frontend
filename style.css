@@ -55,6 +55,9 @@ body {
   padding: 20px 80px;
   background-color: #e3e6f3;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 #navbar {
@@ -83,7 +86,8 @@ body {
 }
 
 /* Add underline transition effect to active and hover */
-#navbar li a.active::after, #navbar li a:hover::after {
+#navbar li a.active::after,
+#navbar li a:hover::after {
   content: "";
   background: #088178;
   width: 30%;
@@ -91,4 +95,37 @@ body {
   position: absolute;
   bottom: -4px;
   left: 20px;
+}
+
+#hero {
+  background-image: url("./images/hero4.png");
+  height: 90vh;
+  width: 100%;
+  background-position: top 25% right 0;
+  background-size: cover;
+  padding: 0 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hero h4 {
+  padding-bottom: 15px;
+}
+
+#hero h1 {
+  color: #088178;
+}
+
+#hero button {
+  background-image: url(./images/button.png);
+  background-color: transparent;
+  color: #088178;
+  border: 0;
+  padding: 14px 80px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
 }
