@@ -306,8 +306,7 @@ body {
   color: palevioletred;
 }
 
-#banner button:hover{
+#banner button:hover {
   background-color: #088178;
   color: #fff;
-
 }
