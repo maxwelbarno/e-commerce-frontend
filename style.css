@@ -257,7 +257,7 @@ body {
   right: 10px;
 }
 
-#product .product-container{
+#product .product-container {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
