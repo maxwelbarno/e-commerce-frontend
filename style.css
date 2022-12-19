@@ -334,7 +334,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  text-align: center;
   background-image: url("./images/banner/b17.jpg");
   width: 660px;
   height: 50vh;
@@ -343,7 +342,7 @@ body {
   padding: 30px;
 }
 
-#sm-banner .banner-box-2{
+#sm-banner .banner-box-2 {
   background-image: url("./images/banner/b10.jpg");
 }
 
@@ -366,9 +365,49 @@ body {
   padding-bottom: 15px;
 }
 
-#sm-banner .banner-box:hover button{
+#sm-banner .banner-box:hover button {
   background-color: #088178;
   color: #fff;
   border: 1px solid #fff;
+}
 
+#smr-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
+#smr-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("./images/banner/b7.jpg");
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#smr-banner .banner-box-3 {
+  background-image: url("./images/banner/b4.jpg");
+}
+
+#smr-banner .banner-box-4 {
+  background-image: url("./images/banner/b18.jpg");
+}
+
+#smr-banner h2 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#smr-banner h3 {
+  color: #ec544e;
+  font-weight: 800;
+  font-size: 15px;
 }
