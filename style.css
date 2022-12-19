@@ -371,7 +371,7 @@ body {
   border: 1px solid #fff;
 }
 
-#smr-banner{
+#smr-banner {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -392,14 +392,13 @@ body {
   margin-bottom: 20px;
 }
 
-#smr-banner .banner-box-3{
+#smr-banner .banner-box-3 {
   background-image: url("./images/banner/b4.jpg");
 }
 
-#smr-banner .banner-box-4{
+#smr-banner .banner-box-4 {
   background-image: url("./images/banner/b18.jpg");
 }
-
 
 #smr-banner h2 {
   color: #fff;
@@ -407,7 +406,7 @@ body {
   font-size: 22px;
 }
 
-#smr-banner h3{
+#smr-banner h3 {
   color: #ec544e;
   font-weight: 800;
   font-size: 15px;
